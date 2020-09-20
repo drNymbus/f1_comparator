@@ -1,0 +1,1772 @@
+[
+    {
+        "driver": "Kevin Magnussen",
+        "series": "5",
+        "nb_level": 10,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 32,
+            "defending": 52,
+            "consistency": 15,
+            "fuel": 41,
+            "tyre": 19,
+            "wet": 25
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 35,
+            "defending": 55,
+            "consistency": 17,
+            "fuel": 44,
+            "tyre": 22,
+            "wet": 28
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 38,
+            "defending": 58,
+            "consistency": 19,
+            "fuel": 47,
+            "tyre": 24,
+            "wet": 30
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 41,
+            "defending": 61,
+            "consistency": 22,
+            "fuel": 50,
+            "tyre": 27,
+            "wet": 33
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 44,
+            "defending": 64,
+            "consistency": 25,
+            "fuel": 53,
+            "tyre": 30,
+            "wet": 36
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 47,
+            "defending": 67,
+            "consistency": 27,
+            "fuel": 56,
+            "tyre": 32,
+            "wet": 39
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 50,
+            "defending": 70,
+            "consistency": 29,
+            "fuel": 59,
+            "tyre": 35,
+            "wet": 42
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 54,
+            "defending": 73,
+            "consistency": 33,
+            "fuel": 63,
+            "tyre": 39,
+            "wet": 46
+        },
+        "9": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 57,
+            "defending": 76,
+            "consistency": 36,
+            "fuel": 66,
+            "tyre": 42,
+            "wet": 49
+        },
+        "10": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 62,
+            "defending": 79,
+            "consistency": 41,
+            "fuel": 70,
+            "tyre": 47,
+            "wet": 54
+        }
+    },
+    {
+        "driver": "Daniel Ricciardo",
+        "series": "2",
+        "nb_level": 7,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 35,
+            "defending": 12,
+            "consistency": 45,
+            "fuel": 16,
+            "tyre": 21,
+            "wet": 27
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 39,
+            "defending": 14,
+            "consistency": 50,
+            "fuel": 18,
+            "tyre": 23,
+            "wet": 30
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 44,
+            "defending": 17,
+            "consistency": 55,
+            "fuel": 22,
+            "tyre": 28,
+            "wet": 35
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 49,
+            "defending": 21,
+            "consistency": 60,
+            "fuel": 26,
+            "tyre": 32,
+            "wet": 40
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 54,
+            "defending": 25,
+            "consistency": 65,
+            "fuel": 30,
+            "tyre": 37,
+            "wet": 45
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": -1,
+            "defending": -1,
+            "consistency": -1,
+            "fuel": -1,
+            "tyre": -1,
+            "wet": -1
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 65,
+            "defending": 35,
+            "consistency": 75,
+            "fuel": 41,
+            "tyre": 48,
+            "wet": 56
+        }
+    },
+    {
+        "driver": "Esteban Ocon",
+        "series": "2",
+        "nb_level": 10,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 10,
+            "defending": 14,
+            "consistency": 33,
+            "fuel": 25,
+            "tyre": 19,
+            "wet": 43
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 11,
+            "defending": 15,
+            "consistency": 35,
+            "fuel": 27,
+            "tyre": 20,
+            "wet": 46
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 13,
+            "defending": 17,
+            "consistency": 38,
+            "fuel": 29,
+            "tyre": 22,
+            "wet": 49
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 15,
+            "defending": 19,
+            "consistency": 41,
+            "fuel": 32,
+            "tyre": 25,
+            "wet": 52
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 17,
+            "defending": 22,
+            "consistency": 44,
+            "fuel": 35,
+            "tyre": 28,
+            "wet": 55
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 19,
+            "defending": 24,
+            "consistency": 47,
+            "fuel": 38,
+            "tyre": 30,
+            "wet": 58
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 22,
+            "defending": 27,
+            "consistency": 50,
+            "fuel": 41,
+            "tyre": 33,
+            "wet": 61
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 25,
+            "defending": 30,
+            "consistency": 53,
+            "fuel": 44,
+            "tyre": 36,
+            "wet": 64
+        },
+        "9": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 27,
+            "defending": 32,
+            "consistency": 56,
+            "fuel": 47,
+            "tyre": 39,
+            "wet": 67
+        },
+        "10": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 29,
+            "defending": 35,
+            "consistency": 59,
+            "fuel": 50,
+            "tyre": 42,
+            "wet": 70
+        }
+    },
+    {
+        "driver": "Daniil Kvyat",
+        "series": "3",
+        "nb_level": 8,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 28,
+            "defending": 36,
+            "consistency": 16,
+            "fuel": 47,
+            "tyre": 12,
+            "wet": 21
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 31,
+            "defending": 40,
+            "consistency": 19,
+            "fuel": 51,
+            "tyre": 15,
+            "wet": 24
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 35,
+            "defending": 44,
+            "consistency": 22,
+            "fuel": 55,
+            "tyre": 17,
+            "wet": 28
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 39,
+            "defending": 48,
+            "consistency": 25,
+            "fuel": 59,
+            "tyre": 20,
+            "wet": 31
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 43,
+            "defending": 52,
+            "consistency": 29,
+            "fuel": 63,
+            "tyre": 24,
+            "wet": 35
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 47,
+            "defending": 56,
+            "consistency": 32,
+            "fuel": 67,
+            "tyre": 27,
+            "wet": 39
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 51,
+            "defending": 60,
+            "consistency": 36,
+            "fuel": 71,
+            "tyre": 30,
+            "wet": 43
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 56,
+            "defending": 65,
+            "consistency": 41,
+            "fuel": 75,
+            "tyre": 35,
+            "wet": 48
+        }
+    },
+    {
+        "driver": "Pierre Gasly",
+        "series": "3",
+        "nb_level": 10,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 46,
+            "defending": 11,
+            "consistency": 20,
+            "fuel": 27,
+            "tyre": 15,
+            "wet": 35
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 49,
+            "defending": 13,
+            "consistency": 22,
+            "fuel": 29,
+            "tyre": 17,
+            "wet": 38
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 52,
+            "defending": 15,
+            "consistency": 25,
+            "fuel": 32,
+            "tyre": 19,
+            "wet": 41
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 55,
+            "defending": 17,
+            "consistency": 28,
+            "fuel": 35,
+            "tyre": 22,
+            "wet": 44
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 58,
+            "defending": 19,
+            "consistency": 30,
+            "fuel": 38,
+            "tyre": 24,
+            "wet": 47
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 61,
+            "defending": 22,
+            "consistency": 33,
+            "fuel": 41,
+            "tyre": 27,
+            "wet": 50
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 64,
+            "defending": 25,
+            "consistency": 36,
+            "fuel": 44,
+            "tyre": 30,
+            "wet": 53
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 67,
+            "defending": 27,
+            "consistency": 39,
+            "fuel": 47,
+            "tyre": 32,
+            "wet": 56
+        },
+        "9": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 70,
+            "defending": 29,
+            "consistency": 42,
+            "fuel": 50,
+            "tyre": 35,
+            "wet": 59
+        },
+        "10": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 73,
+            "defending": 33,
+            "consistency": 46,
+            "fuel": 54,
+            "tyre": 39,
+            "wet": 63
+        }
+    },
+    {
+        "driver": "Sergio Perez",
+        "series": "5",
+        "nb_level": 8,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 22,
+            "defending": 17,
+            "consistency": 55,
+            "fuel": 35,
+            "tyre": 28,
+            "wet": 44
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 25,
+            "defending": 20,
+            "consistency": 59,
+            "fuel": 39,
+            "tyre": 31,
+            "wet": 48
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 29,
+            "defending": 24,
+            "consistency": 63,
+            "fuel": 43,
+            "tyre": 35,
+            "wet": 52
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 32,
+            "defending": 27,
+            "consistency": 67,
+            "fuel": 47,
+            "tyre": 39,
+            "wet": 56
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 36,
+            "defending": 30,
+            "consistency": 71,
+            "fuel": 51,
+            "tyre": 43,
+            "wet": 60
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 41,
+            "defending": 35,
+            "consistency": 75,
+            "fuel": 56,
+            "tyre": 48,
+            "wet": 65
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 46,
+            "defending": 40,
+            "consistency": 79,
+            "fuel": 60,
+            "tyre": 53,
+            "wet": 69
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 52,
+            "defending": 46,
+            "consistency": 83,
+            "fuel": 66,
+            "tyre": 59,
+            "wet": 74
+        }
+    },
+    {
+        "driver": "Nicholas Latifi",
+        "series": "1",
+        "nb_level": 10,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 20,
+            "defending": 37,
+            "consistency": 11,
+            "fuel": 15,
+            "tyre": 27,
+            "wet": 8
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 22,
+            "defending": 40,
+            "consistency": 12,
+            "fuel": 16,
+            "tyre": 30,
+            "wet": 9
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 25,
+            "defending": 43,
+            "consistency": 14,
+            "fuel": 19,
+            "tyre": 33,
+            "wet": 10
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 27,
+            "defending": 46,
+            "consistency": 15,
+            "fuel": 20,
+            "tyre": 35,
+            "wet": 11
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 29,
+            "defending": 49,
+            "consistency": 17,
+            "fuel": 22,
+            "tyre": 38,
+            "wet": 13
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 32,
+            "defending": 52,
+            "consistency": 19,
+            "fuel": 25,
+            "tyre": 41,
+            "wet": 15
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 35,
+            "defending": 55,
+            "consistency": 22,
+            "fuel": 28,
+            "tyre": 44,
+            "wet": 17
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 38,
+            "defending": 58,
+            "consistency": 24,
+            "fuel": 30,
+            "tyre": 47,
+            "wet": 19
+        },
+        "9": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 41,
+            "defending": 61,
+            "consistency": 27,
+            "fuel": 33,
+            "tyre": 50,
+            "wet": 22
+        },
+        "10": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 44,
+            "defending": 64,
+            "consistency": 30,
+            "fuel": 36,
+            "tyre": 53,
+            "wet": 25
+        }
+    },
+    {
+        "driver": "Kimi R\u00e4ikk\u00f6nen",
+        "series": "7",
+        "nb_level": 8,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 43,
+            "defending": 63,
+            "consistency": 52,
+            "fuel": 24,
+            "tyre": 35,
+            "wet": 29
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 47,
+            "defending": 67,
+            "consistency": 56,
+            "fuel": 27,
+            "tyre": 39,
+            "wet": 32
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 51,
+            "defending": 71,
+            "consistency": 60,
+            "fuel": 30,
+            "tyre": 43,
+            "wet": 36
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 56,
+            "defending": 75,
+            "consistency": 65,
+            "fuel": 35,
+            "tyre": 48,
+            "wet": 41
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 60,
+            "defending": 79,
+            "consistency": 69,
+            "fuel": 40,
+            "tyre": 53,
+            "wet": 46
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 66,
+            "defending": 83,
+            "consistency": 74,
+            "fuel": 46,
+            "tyre": 59,
+            "wet": 52
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 71,
+            "defending": 87,
+            "consistency": 79,
+            "fuel": 52,
+            "tyre": 64,
+            "wet": 58
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 77,
+            "defending": 91,
+            "consistency": 84,
+            "fuel": 60,
+            "tyre": 71,
+            "wet": 65
+        }
+    },
+    {
+        "driver": "Carlos Sainz",
+        "series": "1",
+        "nb_level": 7,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 16,
+            "defending": 30,
+            "consistency": 40,
+            "fuel": 9,
+            "tyre": 22,
+            "wet": 12
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 21,
+            "defending": 35,
+            "consistency": 45,
+            "fuel": 12,
+            "tyre": 27,
+            "wet": 16
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 23,
+            "defending": 39,
+            "consistency": 50,
+            "fuel": 14,
+            "tyre": 30,
+            "wet": 18
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 28,
+            "defending": 44,
+            "consistency": 55,
+            "fuel": 17,
+            "tyre": 35,
+            "wet": 22
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 32,
+            "defending": 49,
+            "consistency": 60,
+            "fuel": 21,
+            "tyre": 40,
+            "wet": 26
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": -1,
+            "defending": -1,
+            "consistency": -1,
+            "fuel": -1,
+            "tyre": -1,
+            "wet": -1
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 42,
+            "defending": 59,
+            "consistency": 70,
+            "fuel": 29,
+            "tyre": 50,
+            "wet": 35
+        }
+    },
+    {
+        "driver": "Lando Norris",
+        "series": "4",
+        "nb_level": 8,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 51,
+            "defending": 34,
+            "consistency": 40,
+            "fuel": 19,
+            "tyre": 15,
+            "wet": 24
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 55,
+            "defending": 35,
+            "consistency": 44,
+            "fuel": 22,
+            "tyre": 17,
+            "wet": 28
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 59,
+            "defending": 39,
+            "consistency": 48,
+            "fuel": 25,
+            "tyre": 20,
+            "wet": 31
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 63,
+            "defending": 43,
+            "consistency": 52,
+            "fuel": 29,
+            "tyre": 24,
+            "wet": 35
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 67,
+            "defending": 47,
+            "consistency": 56,
+            "fuel": 32,
+            "tyre": 27,
+            "wet": 39
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 71,
+            "defending": 51,
+            "consistency": 60,
+            "fuel": 36,
+            "tyre": 30,
+            "wet": 43
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 75,
+            "defending": 56,
+            "consistency": 65,
+            "fuel": 41,
+            "tyre": 35,
+            "wet": 48
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 79,
+            "defending": 60,
+            "consistency": 69,
+            "fuel": 46,
+            "tyre": 40,
+            "wet": 53
+        }
+    },
+    {
+        "driver": "Lewis Hamilton",
+        "series": "7",
+        "nb_level": 7,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 59,
+            "defending": 42,
+            "consistency": 50,
+            "fuel": 35,
+            "tyre": 29,
+            "wet": 70
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 65,
+            "defending": 48,
+            "consistency": 56,
+            "fuel": 41,
+            "tyre": 35,
+            "wet": 75
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 70,
+            "defending": 53,
+            "consistency": 61,
+            "fuel": 46,
+            "tyre": 40,
+            "wet": 80
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 76,
+            "defending": 61,
+            "consistency": 68,
+            "fuel": 54,
+            "tyre": 48,
+            "wet": 85
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 82,
+            "defending": 68,
+            "consistency": 75,
+            "fuel": 62,
+            "tyre": 56,
+            "wet": 90
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 88,
+            "defending": 76,
+            "consistency": 82,
+            "fuel": 71,
+            "tyre": 66,
+            "wet": 95
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 95,
+            "defending": 85,
+            "consistency": 90,
+            "fuel": 80,
+            "tyre": 76,
+            "wet": 100
+        }
+    },
+    {
+        "driver": "Lance Stroll",
+        "series": "4",
+        "nb_level": 10,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 17,
+            "defending": 22,
+            "consistency": 13,
+            "fuel": 29,
+            "tyre": 38,
+            "wet": 49
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 19,
+            "defending": 25,
+            "consistency": 15,
+            "fuel": 32,
+            "tyre": 41,
+            "wet": 52
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 22,
+            "defending": 28,
+            "consistency": 17,
+            "fuel": 35,
+            "tyre": 44,
+            "wet": 55
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 24,
+            "defending": 30,
+            "consistency": 19,
+            "fuel": 38,
+            "tyre": 47,
+            "wet": 58
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 27,
+            "defending": 33,
+            "consistency": 22,
+            "fuel": 41,
+            "tyre": 50,
+            "wet": 60
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 30,
+            "defending": 36,
+            "consistency": 25,
+            "fuel": 44,
+            "tyre": 53,
+            "wet": 64
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 32,
+            "defending": 39,
+            "consistency": 27,
+            "fuel": 47,
+            "tyre": 56,
+            "wet": 67
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 35,
+            "defending": 42,
+            "consistency": 29,
+            "fuel": 50,
+            "tyre": 59,
+            "wet": 70
+        },
+        "9": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 39,
+            "defending": 46,
+            "consistency": 33,
+            "fuel": 54,
+            "tyre": 63,
+            "wet": 73
+        },
+        "10": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 42,
+            "defending": 49,
+            "consistency": 36,
+            "fuel": 57,
+            "tyre": 66,
+            "wet": 76
+        }
+    },
+    {
+        "driver": "Alexander Albon",
+        "series": "6",
+        "nb_level": 8,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 48,
+            "defending": 20,
+            "consistency": 25,
+            "fuel": 59,
+            "tyre": 31,
+            "wet": 39
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 52,
+            "defending": 24,
+            "consistency": 29,
+            "fuel": 63,
+            "tyre": 35,
+            "wet": 43
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 56,
+            "defending": 27,
+            "consistency": 32,
+            "fuel": 67,
+            "tyre": 39,
+            "wet": 47
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 60,
+            "defending": 30,
+            "consistency": 36,
+            "fuel": 71,
+            "tyre": 43,
+            "wet": 51
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 65,
+            "defending": 35,
+            "consistency": 41,
+            "fuel": 75,
+            "tyre": 48,
+            "wet": 56
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 69,
+            "defending": 40,
+            "consistency": 46,
+            "fuel": 79,
+            "tyre": 53,
+            "wet": 60
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 74,
+            "defending": 46,
+            "consistency": 52,
+            "fuel": 83,
+            "tyre": 59,
+            "wet": 66
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 79,
+            "defending": 52,
+            "consistency": 58,
+            "fuel": 87,
+            "tyre": 64,
+            "wet": 71
+        }
+    },
+    {
+        "driver": "Antonio Giovinazzi",
+        "series": "1",
+        "nb_level": 10,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 9,
+            "defending": 12,
+            "consistency": 40,
+            "fuel": 30,
+            "tyre": 16,
+            "wet": 22
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 10,
+            "defending": 14,
+            "consistency": 43,
+            "fuel": 33,
+            "tyre": 19,
+            "wet": 25
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 11,
+            "defending": 15,
+            "consistency": 46,
+            "fuel": 35,
+            "tyre": 20,
+            "wet": 27
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 13,
+            "defending": 17,
+            "consistency": 49,
+            "fuel": 38,
+            "tyre": 22,
+            "wet": 29
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 15,
+            "defending": 19,
+            "consistency": 52,
+            "fuel": 41,
+            "tyre": 25,
+            "wet": 32
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 17,
+            "defending": 22,
+            "consistency": 55,
+            "fuel": 44,
+            "tyre": 28,
+            "wet": 35
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 19,
+            "defending": 24,
+            "consistency": 58,
+            "fuel": 47,
+            "tyre": 30,
+            "wet": 38
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 22,
+            "defending": 27,
+            "consistency": 61,
+            "fuel": 50,
+            "tyre": 33,
+            "wet": 41
+        },
+        "9": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 25,
+            "defending": 30,
+            "consistency": 65,
+            "fuel": 53,
+            "tyre": 36,
+            "wet": 44
+        },
+        "10": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 27,
+            "defending": 32,
+            "consistency": 67,
+            "fuel": 56,
+            "tyre": 39,
+            "wet": 47
+        }
+    },
+    {
+        "driver": "Romain Grosjean",
+        "series": "6",
+        "nb_level": 10,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 44,
+            "defending": 28,
+            "consistency": 17,
+            "fuel": 35,
+            "tyre": 55,
+            "wet": 22
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 47,
+            "defending": 30,
+            "consistency": 19,
+            "fuel": 38,
+            "tyre": 58,
+            "wet": 24
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 50,
+            "defending": 33,
+            "consistency": 22,
+            "fuel": 41,
+            "tyre": 61,
+            "wet": 27
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 53,
+            "defending": 36,
+            "consistency": 25,
+            "fuel": 44,
+            "tyre": 64,
+            "wet": 30
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 56,
+            "defending": 39,
+            "consistency": 27,
+            "fuel": 47,
+            "tyre": 67,
+            "wet": 32
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 59,
+            "defending": 42,
+            "consistency": 29,
+            "fuel": 50,
+            "tyre": 70,
+            "wet": 35
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 63,
+            "defending": 46,
+            "consistency": 33,
+            "fuel": 54,
+            "tyre": 73,
+            "wet": 39
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 66,
+            "defending": 49,
+            "consistency": 36,
+            "fuel": 57,
+            "tyre": 76,
+            "wet": 42
+        },
+        "9": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 70,
+            "defending": 54,
+            "consistency": 41,
+            "fuel": 62,
+            "tyre": 79,
+            "wet": 47
+        },
+        "10": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 73,
+            "defending": 58,
+            "consistency": 46,
+            "fuel": 65,
+            "tyre": 82,
+            "wet": 52
+        }
+    },
+    {
+        "driver": "Charles Leclerc",
+        "series": "3",
+        "nb_level": 7,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 50,
+            "defending": 30,
+            "consistency": 18,
+            "fuel": 23,
+            "tyre": 39,
+            "wet": 14
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 55,
+            "defending": 35,
+            "consistency": 22,
+            "fuel": 28,
+            "tyre": 44,
+            "wet": 17
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 60,
+            "defending": 40,
+            "consistency": 26,
+            "fuel": 32,
+            "tyre": 49,
+            "wet": 21
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 65,
+            "defending": 45,
+            "consistency": 30,
+            "fuel": 37,
+            "tyre": 54,
+            "wet": 25
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 70,
+            "defending": 50,
+            "consistency": 35,
+            "fuel": 42,
+            "tyre": 59,
+            "wet": 29
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": -1,
+            "defending": -1,
+            "consistency": -1,
+            "fuel": -1,
+            "tyre": -1,
+            "wet": -1
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 80,
+            "defending": 61,
+            "consistency": 46,
+            "fuel": 53,
+            "tyre": 70,
+            "wet": 40
+        }
+    },
+    {
+        "driver": "George Russell",
+        "series": "2",
+        "nb_level": 8,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 10,
+            "defending": 14,
+            "consistency": 25,
+            "fuel": 19,
+            "tyre": 43,
+            "wet": 33
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 12,
+            "defending": 16,
+            "consistency": 28,
+            "fuel": 21,
+            "tyre": 47,
+            "wet": 36
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 15,
+            "defending": 19,
+            "consistency": 31,
+            "fuel": 24,
+            "tyre": 51,
+            "wet": 40
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 17,
+            "defending": 22,
+            "consistency": 35,
+            "fuel": 28,
+            "tyre": 55,
+            "wet": 44
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 20,
+            "defending": 25,
+            "consistency": 39,
+            "fuel": 31,
+            "tyre": 59,
+            "wet": 48
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 24,
+            "defending": 29,
+            "consistency": 43,
+            "fuel": 35,
+            "tyre": 63,
+            "wet": 52
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 27,
+            "defending": 32,
+            "consistency": 47,
+            "fuel": 39,
+            "tyre": 67,
+            "wet": 56
+        },
+        "8": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 30,
+            "defending": 36,
+            "consistency": 51,
+            "fuel": 43,
+            "tyre": 71,
+            "wet": 60
+        }
+    },
+    {
+        "driver": "Valtteri Bottas",
+        "series": "4",
+        "nb_level": 7,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 28,
+            "defending": 35,
+            "consistency": 44,
+            "fuel": 55,
+            "tyre": 22,
+            "wet": 17
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 32,
+            "defending": 40,
+            "consistency": 49,
+            "fuel": 60,
+            "tyre": 26,
+            "wet": 21
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 37,
+            "defending": 45,
+            "consistency": 54,
+            "fuel": 65,
+            "tyre": 30,
+            "wet": 25
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 42,
+            "defending": 50,
+            "consistency": 59,
+            "fuel": 70,
+            "tyre": 35,
+            "wet": 29
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 48,
+            "defending": 56,
+            "consistency": 65,
+            "fuel": 75,
+            "tyre": 41,
+            "wet": 35
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": -1,
+            "defending": -1,
+            "consistency": -1,
+            "fuel": -1,
+            "tyre": -1,
+            "wet": -1
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 61,
+            "defending": 68,
+            "consistency": 76,
+            "fuel": 85,
+            "tyre": 54,
+            "wet": 48
+        }
+    },
+    {
+        "driver": "Max Verstappen",
+        "series": "6",
+        "nb_level": 7,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 65,
+            "defending": 37,
+            "consistency": 25,
+            "fuel": 54,
+            "tyre": 30,
+            "wet": 45
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 70,
+            "defending": 42,
+            "consistency": 29,
+            "fuel": 59,
+            "tyre": 35,
+            "wet": 50
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 75,
+            "defending": 48,
+            "consistency": 35,
+            "fuel": 65,
+            "tyre": 41,
+            "wet": 56
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 80,
+            "defending": 53,
+            "consistency": 40,
+            "fuel": 70,
+            "tyre": 46,
+            "wet": 61
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 85,
+            "defending": 61,
+            "consistency": 48,
+            "fuel": 76,
+            "tyre": 54,
+            "wet": 68
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 90,
+            "defending": 68,
+            "consistency": 56,
+            "fuel": 82,
+            "tyre": 62,
+            "wet": 75
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 95,
+            "defending": 76,
+            "consistency": 66,
+            "fuel": 88,
+            "tyre": 71,
+            "wet": 82
+        }
+    },
+    {
+        "driver": "Sebastian Vettel",
+        "series": "5",
+        "nb_level": 7,
+        "1": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 40,
+            "defending": 49,
+            "consistency": 26,
+            "fuel": 21,
+            "tyre": 60,
+            "wet": 32
+        },
+        "2": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 45,
+            "defending": 54,
+            "consistency": 30,
+            "fuel": 25,
+            "tyre": 65,
+            "wet": 37
+        },
+        "3": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 50,
+            "defending": 59,
+            "consistency": 35,
+            "fuel": 29,
+            "tyre": 70,
+            "wet": 42
+        },
+        "4": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 56,
+            "defending": 65,
+            "consistency": 41,
+            "fuel": 35,
+            "tyre": 75,
+            "wet": 48
+        },
+        "5": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 61,
+            "defending": 70,
+            "consistency": 46,
+            "fuel": 40,
+            "tyre": 80,
+            "wet": 53
+        },
+        "6": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": -1,
+            "defending": -1,
+            "consistency": -1,
+            "fuel": -1,
+            "tyre": -1,
+            "wet": -1
+        },
+        "7": {
+            "cards": 0,
+            "cost": 0,
+            "overtaking": 75,
+            "defending": 82,
+            "consistency": 62,
+            "fuel": 56,
+            "tyre": 90,
+            "wet": 68
+        }
+    }
+]

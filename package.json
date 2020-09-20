@@ -1,0 +1,22 @@
+{
+  "name": "f1_comparator",
+  "version": "1.0.0",
+  "description": "F1 Manager cards comparator",
+  "main": "node_app/serv.js",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "unit": "jest --config test/unit/jest.conf.js --coverage",
+    "test": "npm run unit",
+    "lint": "eslint --ext .js,.vue src test/unit",
+    "build": "node build/build.js"
+  },
+  "dependencies": {
+    "d3": "^3.5.17",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

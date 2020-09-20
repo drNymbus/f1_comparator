@@ -1,0 +1,37 @@
+body {
+    /* font-family: Formula1-Regular !important;
+    src: url('Formula1-Regular.ttf'); */
+}
+
+.menu {
+    float : center;
+}
+
+.main {
+}
+
+.selector {
+    float: left;
+    width: 15%;
+}
+
+.comparator {
+    float: right;
+    width: 85%;
+}
+
+.item1 {
+    background-color: #efefef;
+    color: #000;
+    height: 400px;
+    width: 48%;
+    float: left;
+}
+
+.item2 {
+    background-color: #efefef;
+    color: #000;
+    height: 400px;
+    width: 48%;
+    float: right;
+}

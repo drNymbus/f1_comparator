@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>F1 Manager - TC</title>
+
+<link rel="stylesheet" href="assets/Formula1-Regular.ttf">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+<body>
+
+    <div class="menu">
+        <button type="button" id="drivers">DRIVERS</button>
+        <button type="button" id="car">CAR COMPONENTS</button>
+    </div>
+
+    <script>
+        var driver_button = document.getElementById("drivers");
+        driver_button.onclick = function () { window.location.href += "drivers" }
+
+        var car_button = document.getElementById("car");
+        car_button.onclick = function () { window.location.href += "car" }
+    </script>
+
+</body>
