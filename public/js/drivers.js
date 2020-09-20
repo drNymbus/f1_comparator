@@ -6,7 +6,7 @@
 //
 // });
 
-d3.json("drivers.json").then(function (data) {
+d3.json("json/drivers.json").then(function (data) {
     var sel = new Selector(data);
     sel.createCheckboxes();
 

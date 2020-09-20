@@ -1,8 +1,10 @@
 # F1 Comparator
-## Description
+
 ## Install
+
 ## Future
-    [] First
-    [] Second
-    [] Third
-    [] Fourth
+
+- [ ] First
+- [ ] Second
+- [ ] Third
+- [ ] Fourth
