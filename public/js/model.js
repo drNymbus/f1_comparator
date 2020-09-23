@@ -26,6 +26,7 @@ class Selector {
             if (i == this.index1 || i == this.index2) checkbox.checked = true;
             checkbox.onclick = function () {
                     var checkboxes = document.forms["form_name"]["check[]"];
+                    console.log(checkboxes);
                     var ccheckboxes = []; // indexes of checked checkboes (= ccheckboxes)
                     var limit = 2;
                     for (var i = 0; i < ccheckboxes.length; i++) {

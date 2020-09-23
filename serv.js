@@ -14,7 +14,6 @@ http.createServer(function (req, res) {
 
     if(req.url === "/"){ // index page | home page
         // console.log("INDEX HTML FILE");
-
         fs.readFile("public/html/index.html", "UTF-8", function(err, html){
             if (err) sendError(res);
 
@@ -29,7 +28,7 @@ http.createServer(function (req, res) {
         // var fileStream = fs.createReadStream(cssPath, "UTF-8");
         // res.writeHead(200, {"Content-Type": "text/css"});
         // fileStream.pipe(res);
-
+        console.log("CSS FILE : " + cssPath);
         var fileStream = fs.createReadStream(cssPath, function (err, data) {
             if (err) sendError(res);
 
@@ -47,7 +46,7 @@ http.createServer(function (req, res) {
         // var fileStream = fs.createReadStream(ttfPath);
         // res.writeHead(200, { "Content-Type": "text/css" });
         // fileStream.pipe(res);
-
+        console.log("TTF FILE : " + ttfPath);
         var fileStream = fs.createReadStream(ttfPath, function (err, data) {
             if (err) sendError(res);
 
@@ -65,6 +64,7 @@ http.createServer(function (req, res) {
         // var fileStream = fs.createReadStream(jsPath, "UTF-8");
         // res.writeHead(200, {"Content-Type": "text/css"});
         // fileStream.pipe(res);
+        console.log("JS FILE : " + jsPath);
         var fileStream = fs.createReadStream(jsPath, function (err, data) {
             if (err) sendError(res);
 
@@ -78,12 +78,13 @@ http.createServer(function (req, res) {
     } else if(req.url.match("\.json$")) { // handle json request
         // console.log("JSON FILE : " + req.url);
 
-        var jsonPath = __dirname + '/public/assets' + req.url;
+        var jsonPath = __dirname + '/public/assets/json' + req.url;
+        console.log("JSON FILE : " + jsonPath);
         var fileStream = fs.createReadStream(jsonPath, function (err, data) {
             if (err) sendError(res);
 
             var jsonData = JSON.parse(data);
-            res.writeHead(200, {"Content-type": "application/json"});
+            res.writeHead(200, {"Content-type": "text/plain"});
             res.write(JSON.stringify(jsonData));
             res.end();
         });
@@ -93,7 +94,7 @@ http.createServer(function (req, res) {
     } else { // Try to load html file, error 404 if not able to.
         var q = url.parse(req.url, true);
         var filename = __dirname + "/public/html" + q.pathname + ".html";
-        console.log(filename);
+        console.log("OTHER FILE : " + filename);
 
         fs.readFile(filename, function(err, data) {
             if (err) sendError(res);
@@ -105,4 +106,4 @@ http.createServer(function (req, res) {
     }
 
 }).listen(port);
-console.log("Listening on port=" + port + " . . . ")
+console.log("Listening on " + port + " . . . ")
