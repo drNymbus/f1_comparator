@@ -9,100 +9,71 @@ function sendError(response) {
     return response.end("404 Not Found");
 }
 
+function sendFile(path, response, type) {
+    var fileStream = fs.readFile(path, function (err, data) {
+        if (err) sendError(response);
+
+        response.writeHead(200, {"Content-type": "text/" + type});
+        response.write(data);
+        response.end();
+    });
+    console.log(type + " FILE : " + path);
+}
+
+function sendFileStream(path, response, type) {
+    var fileStream = fs.createReadStream(path, function (err, data) {
+        if (err) sendError(response);
+        response.writeHead(200, {"Content-type": "text/plain"});
+    });
+
+    fileStream.pipe(response);
+}
+
+function computeRequest(request) {
+    console.log("COMPUTE : " + request);
+}
+
 http.createServer(function (req, res) {
-    console.log(req.url);
+    console.log('\n', req.url);
 
     if(req.url === "/"){ // index page | home page
-        // console.log("INDEX HTML FILE");
-        fs.readFile("public/html/index.html", "UTF-8", function(err, html){
-            if (err) sendError(res);
-
-            res.writeHead(200, {"Content-Type": "text/html"});
-            res.end(html);
-        });
+        sendFile("public/html/index.html", res, "html")
 
     } else if(req.url.match("\.css$")) { // handle css request
-        // console.log("CSS FILE : " + req.url);
-
         var cssPath = __dirname + '/public' + req.url;
-        // var fileStream = fs.createReadStream(cssPath, "UTF-8");
-        // res.writeHead(200, {"Content-Type": "text/css"});
-        // fileStream.pipe(res);
-        console.log("CSS FILE : " + cssPath);
-        var fileStream = fs.createReadStream(cssPath, function (err, data) {
-            if (err) sendError(res);
-
-            res.writeHead(200, {"Content-type": "text/css"});
-            res.write(data);
-            res.end();
-        });
-
-        fileStream.pipe(res);
-
-    } else if(req.url.match("\.ttf$")) {
-        // console.log("TTF FILE : " + req.url);
-
-        var ttfPath = __dirname + '/public' + req.url;
-        // var fileStream = fs.createReadStream(ttfPath);
-        // res.writeHead(200, { "Content-Type": "text/css" });
-        // fileStream.pipe(res);
-        console.log("TTF FILE : " + ttfPath);
-        var fileStream = fs.createReadStream(ttfPath, function (err, data) {
-            if (err) sendError(res);
-
-            res.writeHead(200, {"Content-type": "text/plain"});
-            res.write(data);
-            res.end();
-        });
-
-        fileStream.pipe(res);
+        sendFile(cssPath, res, "css")
 
     } else if(req.url.match("\.js$")) { // handle js request
-        // console.log("JS FILE : " + req.url);
-
         var jsPath = __dirname + '/public/js' + req.url;
-        // var fileStream = fs.createReadStream(jsPath, "UTF-8");
-        // res.writeHead(200, {"Content-Type": "text/css"});
-        // fileStream.pipe(res);
-        console.log("JS FILE : " + jsPath);
-        var fileStream = fs.createReadStream(jsPath, function (err, data) {
-            if (err) sendError(res);
-
-            res.writeHead(200, {"Content-type": "text/plain"});
-            res.write(data);
-            res.end();
-        });
-
-        fileStream.pipe(res);
+        sendFile(jsPath, res, "js");
 
     } else if(req.url.match("\.json$")) { // handle json request
-        // console.log("JSON FILE : " + req.url);
-
         var jsonPath = __dirname + '/public/assets/json' + req.url;
-        console.log("JSON FILE : " + jsonPath);
-        var fileStream = fs.createReadStream(jsonPath, function (err, data) {
-            if (err) sendError(res);
+        sendFile(jsonPath, res, "json");
 
-            var jsonData = JSON.parse(data);
-            res.writeHead(200, {"Content-type": "text/plain"});
-            res.write(JSON.stringify(jsonData));
-            res.end();
-        });
-
-        // fileStream.pipe(res);
+    } else if(req.url.match("\.svg")) {
+        var svgPath = __dirname + '/public/assets' + req.url;
+        sendFile(svgPath, res, "svg");
 
     } else { // Try to load html file, error 404 if not able to.
         var q = url.parse(req.url, true);
-        var filename = __dirname + "/public/html" + q.pathname + ".html";
-        console.log("OTHER FILE : " + filename);
 
-        fs.readFile(filename, function(err, data) {
-            if (err) sendError(res);
+        var r = q.pathname.split('/')
+        if (r.length == 2) {
+            var filename = __dirname + "/public/html" + q.pathname + ".html";
+            sendFile(filename, res, "html");    
 
-            res.writeHead(200, {'Content-Type': 'text/html'});
-            res.write(data);
-            return res.end();
-        });
+        } else if (r.length == 3) {
+            console.log(q);
+            filename = '/' + q.pathname.split('/')[1] // load html file first
+            console.log("filename : " + filename);
+            sendFile(filename, res, "html");    
+
+            // compute the request sent (as a dictionary thanks to q)
+            computeRequest(q);
+        } else {
+            sendError(res);
+        }
     }
 
 }).listen(port);

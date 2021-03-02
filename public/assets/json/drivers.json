@@ -1,6 +1,7 @@
 [
     {
-        "driver": "Kevin Magnussen",
+        "name": "Kevin Magnussen",
+        "scuderia" : "haas",
         "series": "5",
         "nb_level": 10,
         "1": {
@@ -105,7 +106,8 @@
         }
     },
     {
-        "driver": "Daniel Ricciardo",
+        "name": "Daniel Ricciardo",
+        "scuderia" : "renault",
         "series": "2",
         "nb_level": 7,
         "1": {
@@ -180,7 +182,8 @@
         }
     },
     {
-        "driver": "Esteban Ocon",
+        "name": "Esteban Ocon",
+        "scuderia" : "renault",
         "series": "2",
         "nb_level": 10,
         "1": {
@@ -285,7 +288,8 @@
         }
     },
     {
-        "driver": "Daniil Kvyat",
+        "name": "Daniil Kvyat",
+        "scuderia" : "alphatauri",
         "series": "3",
         "nb_level": 8,
         "1": {
@@ -370,7 +374,8 @@
         }
     },
     {
-        "driver": "Pierre Gasly",
+        "name": "Pierre Gasly",
+        "scuderia" : "alphatauri",
         "series": "3",
         "nb_level": 10,
         "1": {
@@ -475,7 +480,8 @@
         }
     },
     {
-        "driver": "Sergio Perez",
+        "name": "Sergio Perez",
+        "scuderia" : "racingpoint",
         "series": "5",
         "nb_level": 8,
         "1": {
@@ -560,7 +566,8 @@
         }
     },
     {
-        "driver": "Nicholas Latifi",
+        "name": "Nicholas Latifi",
+        "scuderia" : "williams",
         "series": "1",
         "nb_level": 10,
         "1": {
@@ -665,7 +672,8 @@
         }
     },
     {
-        "driver": "Kimi R\u00e4ikk\u00f6nen",
+        "name": "Kimi R\u00e4ikk\u00f6nen",
+        "scuderia" : "alfaromeo",
         "series": "7",
         "nb_level": 8,
         "1": {
@@ -750,7 +758,8 @@
         }
     },
     {
-        "driver": "Carlos Sainz",
+        "name": "Carlos Sainz",
+        "scuderia" : "maclaren",
         "series": "1",
         "nb_level": 7,
         "1": {
@@ -825,7 +834,8 @@
         }
     },
     {
-        "driver": "Lando Norris",
+        "name": "Lando Norris",
+        "scuderia" : "maclaren",
         "series": "4",
         "nb_level": 8,
         "1": {
@@ -910,7 +920,8 @@
         }
     },
     {
-        "driver": "Lewis Hamilton",
+        "name": "Lewis Hamilton",
+        "scuderia" : "mercedes",
         "series": "7",
         "nb_level": 7,
         "1": {
@@ -985,7 +996,8 @@
         }
     },
     {
-        "driver": "Lance Stroll",
+        "name": "Lance Stroll",
+        "scuderia" : "racingpoint",
         "series": "4",
         "nb_level": 10,
         "1": {
@@ -1090,7 +1102,8 @@
         }
     },
     {
-        "driver": "Alexander Albon",
+        "name": "Alexander Albon",
+        "scuderia" : "redbull",
         "series": "6",
         "nb_level": 8,
         "1": {
@@ -1175,7 +1188,8 @@
         }
     },
     {
-        "driver": "Antonio Giovinazzi",
+        "name": "Antonio Giovinazzi",
+        "scuderia" : "alfaromeo",
         "series": "1",
         "nb_level": 10,
         "1": {
@@ -1280,7 +1294,8 @@
         }
     },
     {
-        "driver": "Romain Grosjean",
+        "name": "Romain Grosjean",
+        "scuderia" : "haas",
         "series": "6",
         "nb_level": 10,
         "1": {
@@ -1385,7 +1400,8 @@
         }
     },
     {
-        "driver": "Charles Leclerc",
+        "name": "Charles Leclerc",
+        "scuderia" : "ferrari",
         "series": "3",
         "nb_level": 7,
         "1": {
@@ -1460,7 +1476,8 @@
         }
     },
     {
-        "driver": "George Russell",
+        "name": "George Russell",
+        "scuderia" : "williams",
         "series": "2",
         "nb_level": 8,
         "1": {
@@ -1545,7 +1562,8 @@
         }
     },
     {
-        "driver": "Valtteri Bottas",
+        "name": "Valtteri Bottas",
+        "scuderia" : "mercedes",
         "series": "4",
         "nb_level": 7,
         "1": {
@@ -1620,7 +1638,8 @@
         }
     },
     {
-        "driver": "Max Verstappen",
+        "name": "Max Verstappen",
+        "scuderia" : "redbull",
         "series": "6",
         "nb_level": 7,
         "1": {
@@ -1695,7 +1714,8 @@
         }
     },
     {
-        "driver": "Sebastian Vettel",
+        "name": "Sebastian Vettel",
+        "scuderia" : "ferrari",
         "series": "5",
         "nb_level": 7,
         "1": {

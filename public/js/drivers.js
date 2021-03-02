@@ -1,23 +1,22 @@
-// require(["d3"], function (d3) {
-//
-//     d3.json("../assets/drivers.json", function (data) {
-//         console.log(data);
-//     });
-//
-// });
+// extern import "model.js" done by "drivers.html"
+// extern import "d3.js" done by "drivers.html"
 
-d3.json("drivers.json").then(function (data) {
-    var sel = new Selector(data);
-    sel.createCheckboxes();
+fetch("drivers.json").then(response => response.json()).then(function (data) {
+    // get window size
+    var width = window.innerWidth, height = window.innerHeight;
+    //create svg
+    var svg = d3.select("#maincontent").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+    svg.append("g")
+        .attr("id", "chart")
+    svg.append("g")
+        .attr("id", "selection");
 
-    console.log(data);
-    console.log("done.");
+    var chart = new Chart(data);
+    // var comp = new Comparator(data);
+    // comp.initSVG();
+
+    var select = new Selector(data, chart, svg, width, height);
+    // select.initCheckboxes(comp);
 });
-
-// d3.json("/public/assets/drivers.json", function (data) {
-//     console.log(data);
-// });
-
-// var json = $.getJSON("../assets/drivers.json", function (data) {
-//     console.log(data);
-// });

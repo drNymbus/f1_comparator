@@ -1,8 +1,4 @@
-body {
-    /* font-family: Formula1-Regular !important;
-    src: url('Formula1-Regular.ttf'); */
-}
-
+/*
 .menu {
     float : center;
 }
@@ -15,23 +11,89 @@ body {
     width: 15%;
 }
 
-.comparator {
-    float: right;
-    width: 85%;
+.selection {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.item1 {
-    background-color: #efefef;
-    color: #000;
-    height: 400px;
-    width: 48%;
+label.selection {
     float: left;
 }
 
-.item2 {
-    background-color: #efefef;
-    color: #000;
-    height: 400px;
-    width: 48%;
+input.selection {
     float: right;
 }
+
+.comparator {
+    background-color: lightgray;
+    transition: background-color 1s linear;
+
+    width: 85%;
+    float: right;
+}
+
+#item1 {
+    float: left;
+}
+
+#item2 {
+    float: right;
+}
+
+#name {
+    margin-right: auto;
+    margin-left : auto;
+    width: 8em;
+}
+
+#series {
+    float: left;
+}
+
+#levels {
+    float: right;
+} */
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+#selection {
+    fill: lavender;
+    stroke: black;
+}
+
+#select {
+    visibility: hidden;
+}
+
+.addDriver { opacity: 0.6; }
+.removeDriver { opacity: 0.6; }
+
+.addButton {
+    fill : lavender;
+    opacity : 0.6;
+}
+.alphatauri { fill: #ffffff; }
+.williams { fill: #0082fa; }
+.renault {fill : #fff500; }
+.maclaren { fill: #c46a08; }
+.racingpoint { fill: #f596c8; }
+.ferrari { fill: #dc0000; }
+.redbull { fill: #0600ef; }
+.mercedes {fill: #00d2be; }
+.haas { fill : #787878; }
+.alfaromeo { fill : #960000; }
+
+/*
+Renault : #fff500
+McLaren : #c46a08
+Alpha Tauri : #ffffff
+Haas : #787878
+Alfa Romeo : #960000
+Mercedes : #00d2be
+RedBull : #0600ef
+Ferrari : #dc0000
+Williams : #0082fa
+RP : #f596c8
+*/

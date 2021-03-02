@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>F1 - TC</title>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>F1 - TC</title>
 
-<link rel="stylesheet" href="assets/Formula1-Regular.ttf">
-<link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="shortcut icon" type="image/jpg" href=”assets/favicon.ico”/>
+        <!-- <link rel="stylesheet" href="assets/Formula1-Regular.ttf"> -->
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
 
-<body>
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <script src="model.js"></script>
+        <script src="drivers.js"></script>
+    </head>
 
-    <div class="main">
-
-        <div class="selector"></div>
-
-        <div class="comparator">
-            <div class="item1"> <!-- ITEM --> </div>
-            <div class="item2"> <!-- ITEM --> </div>
-        </div>
-
-    </div>
-
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="model.js"></script>
-    <script data-main="drivers.js" src="require.js"></script>
-
-</body>
+    <body>
+        <div id="maincontent"></div>
+        <!-- <div class="selector"></div>
+            <div class="comparator"></div>
+            <div class="chart"></div> -->
+    </body>
+</html>
